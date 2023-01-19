@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav1{
+  display: flex;
+  /* border:2px solid green; */
+  width:200px;
+  margin-left: 50px;
+  justify-content: space-between;
+
+}
+.nav_top{
+  display:flex;
+  /* border:2px solid red; */
+  height: 200px;
+  justify-content: space-between;
+  height:100px;
+  align-items: center;
+}
+#country{
+  display:flex;
+  /* border: 2px solid orange; */
+  width:120px
+
+}
+.nav_3{
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+.logo{
+  height:95px;
+  width:150px;
+}
+#tell{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 200px;
+border-radius: 8px;
+}
+#naw_low{
+  display: flex;
+  justify-content: space-evenly;
+  margin:auto;
+  border:2px solid cyan;
+  width:65%;
+}
+#red{
+  background-color: #dc143c;
+  height: 2000px;
+  border: 2px solid ;
+}
+#body{
+  border: 2px solid blue;
+}
+.HEADER{
+  font-size: 60px;
+  margin-top: 90px;
+}
+#t{
+  font-size: 25px;
+}
+.buto{
+  color:white;
+  background-color: black;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+#pros{
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
