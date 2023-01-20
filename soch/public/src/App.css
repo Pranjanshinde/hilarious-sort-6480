@@ -78,11 +78,11 @@ border-radius: 8px;
 }
 #red{
   background-color: #dc143c;
-  height: 2000px;
+  padding-bottom: 60px;
   border: 2px solid ;
 }
 #body{
-  border: 2px solid blue;
+ 
 }
 .HEADER{
   font-size: 60px;
@@ -97,10 +97,55 @@ border-radius: 8px;
   margin-left: 35px;
   margin-top: 30px;
 }
-#pros{
+.pros{
   display: block;
   margin: auto;
   margin-top: 40px;
+}
+#flex{
+  display: flex;
+
+  width:90%;
+  margin:auto;
+  justify-content: space-evenly;
+}
+#flex>div{
+  width:22%;
+  margin-top: 30px;
+}
+#slide{
+ font-size: 30px;
+ color: black;
+ font: bold;
+ background-image:"https://cms.coach.com/i/coach/0116-m2-under-300?$poi$&w=480&fmt=webp&$qlt_med$";
+ background-color: pink;
+}
+.flex2{
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: auto;
+
+  
+}
+.flex2>div{
+  width:30%;
+  
+  padding-top: 30px;
+
+}
+#last{
+  background-color:	#dcdcdc ;
+
+}
+#grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+#grid>div>img{
+  margin-left: 40px;
 }
 @keyframes App-logo-spin {
   from {
