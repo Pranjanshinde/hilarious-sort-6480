@@ -1,0 +1,7 @@
+#split{
+    display:flex;
+    justify-content: space-evenly;
+}
+#one{
+    width: 40%;
+}
